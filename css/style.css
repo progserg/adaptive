@@ -1,0 +1,479 @@
+@import "reset.css";
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+body {
+  font: 200 100%/1.5em "Montserrat Regular", sans-serif;
+  color: #fff;
+  width: 100%;
+}
+nav:before,
+nav:after,
+.block-info:before,
+.block-info:after,
+.container:before,
+.container:after,
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+nav:after,
+.block-info:after,
+.container:after,
+.clearfix:after {
+  clear: both;
+}
+.col-width {
+  float: left;
+  width: 320px;
+  height: 277px;
+  max-height: 277px;
+}
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+.button-main-menu {
+  width: 11.5625%;
+  height: 100%;
+  float: right;
+}
+.button-main-menu:hover {
+  height: 100%;
+  width: 11.5625%;
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -o-transform: rotate(90deg);
+  /* Opera */
+  -webkit-transform: rotate(90deg);
+  /* Safari y Chrome */
+}
+.ul-menu {
+  display: none;
+}
+.menu {
+  height: 37px;
+  width: 100%;
+  background-color: #373c3f;
+  text-align: center;
+}
+.header {
+  height: 175px;
+  background: linear-gradient(to top left, #078aa4, #16b1c4);
+}
+.split {
+  height: 75px;
+  background-color: #27212c;
+}
+.button-split {
+  height: 100%;
+  width: 21.875%;
+  background-color: #bc3183;
+  float: right;
+}
+.button-split-sign {
+  width: 10px;
+  height: 16px;
+  display: inline-block;
+  margin: 39.33% 42.857%;
+}
+.menu-title {
+  margin-top: 2.567568%;
+  margin-left: 5%;
+  float: left;
+}
+.header-text {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 56px;
+  width: 222px;
+}
+.header-text-link {
+  opacity: 0.5;
+  margin-top: 10px;
+  float: left;
+}
+.header-sign-link {
+  margin-top: 10px;
+  float: right;
+  width: 8px;
+  height: 12px;
+}
+.split-text {
+  opacity: 0.5;
+  margin-top: 30px;
+  margin-left: 26px;
+  float: left;
+}
+.split-text,
+.header-text-link,
+.menu-title {
+  font-size: 0.625em;
+}
+h1 {
+  font-size: 1.1875em;
+}
+.block-info img {
+  height: 277px;
+  max-height: 277px;
+  width: 100%;
+  max-width: 100%;
+}
+.block-info {
+  width: 100%;
+  background-color: #5b0fa1;
+}
+.button-info-sign {
+  height: 28px !important;
+  width: 18px !important;
+  margin: 38.945848% 47.1875%;
+}
+footer {
+  background-color: #ebebeb;
+}
+footer h1 {
+  font-size: 1.375em;
+  color: #088ca5;
+}
+footer p {
+  margin: 24px auto;
+  color: #515151;
+  font-size: 0.84375em;
+  line-height: 22px;
+}
+.block-footer {
+  display: inline-block;
+  margin-top: 34px;
+  width: 253px;
+  margin-left: 40px;
+}
+@media (min-width: 640px) and (max-width: 979px) {
+  .col-width {
+    float: left;
+    width: 640px;
+    height: 554px;
+    max-height: 554px;
+  }
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 2.375em;
+    line-height: 1.1em;
+  }
+  .menu {
+    height: 74px;
+    width: 100%;
+    background-color: #373c3f;
+    text-align: center;
+  }
+  .menu-title {
+    margin-top: 3.8513520000000003%;
+    margin-left: 7.5%;
+    float: left;
+  }
+  .header {
+    height: 350px;
+    background: linear-gradient(to top left, #078aa4, #16b1c4);
+  }
+  .header-text {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 112px;
+    width: 444px;
+  }
+  .header-text-link {
+    opacity: 0.5;
+    margin-top: 20px;
+    float: left;
+  }
+  .header-sign-link {
+    margin-top: 20px;
+    float: right;
+    width: 16px;
+    height: 24px;
+  }
+  .block-info img {
+    height: 554px;
+    max-height: 554px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .block-info {
+    width: 100%;
+    background-color: #5b0fa1;
+  }
+  .split {
+    height: 150px;
+    background-color: #27212c;
+  }
+  .split-text {
+    opacity: 0.5;
+    margin-top: 60px;
+    margin-left: 52px;
+    float: left;
+  }
+  .button-split-sign {
+    width: 20px;
+    height: 32px;
+    display: inline-block;
+    margin: 39.33% 42.857%;
+  }
+  .split-text,
+  .header-text-link,
+  .menu-title {
+    font-size: 1em;
+  }
+  .button-info-sign {
+    height: 56px !important;
+    width: 36px !important;
+    margin: 38.945848% 47.1875%;
+  }
+  .block-footer {
+    display: inline-block;
+    margin-top: 68px;
+    width: 506px;
+    margin-left: 80px;
+  }
+  footer h1 {
+    font-size: 2.0625em;
+    color: #088ca5;
+  }
+  footer p {
+    margin: 36px auto;
+    color: #515151;
+    font-size: 1.265625em;
+    line-height: 33px;
+  }
+}
+@media (min-width: 980px) and (max-width: 1023px) {
+  .col-width {
+    float: left;
+    width: 326.6666666666667px;
+    height: 277px;
+    max-height: 277px;
+  }
+  .container {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .menu-title,
+  .button-main-menu {
+    display: none;
+  }
+  .ul-menu {
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 73px;
+    margin-top: 45px;
+  }
+  .ul-menu li {
+    float: left;
+    margin-right: 28px;
+  }
+  .ul-menu li:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 3.5625em;
+    line-height: 1.1em;
+  }
+  .menu {
+    height: 111px;
+    width: 100%;
+    background-color: #373c3f;
+    text-align: center;
+  }
+  .menu-title {
+    margin-top: 5.135136%;
+    margin-left: 10%;
+    float: left;
+  }
+  .header {
+    height: 525px;
+    background: linear-gradient(to top left, #078aa4, #16b1c4);
+  }
+  .header-text {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 168px;
+    width: 666px;
+  }
+  .header-text-link {
+    opacity: 0.5;
+    margin-top: 20px;
+    float: left;
+  }
+  .header-sign-link {
+    margin-top: 30px;
+    float: right;
+    width: 24px;
+    height: 36px;
+  }
+  .block-info img,
+  .block-info {
+    width: 100%;
+    background-color: #5b0fa1;
+  }
+  .split {
+    height: 225px;
+    background-color: #27212c;
+  }
+  .split-text {
+    opacity: 0.5;
+    margin-top: 90px;
+    margin-left: 78px;
+    float: left;
+  }
+  .button-split-sign {
+    width: 30px;
+    height: 48px;
+    display: inline-block;
+    margin: 39.33% 42.857%;
+  }
+  .split-text,
+  .header-text-link,
+  .menu-title {
+    font-size: 2em;
+  }
+  .button-info-sign {
+    height: 56px !important;
+    width: 36px !important;
+    margin: 38.945848% 47.1875%;
+  }
+  .block-footer {
+    display: inline-block;
+    margin-top: 102px;
+    width: 759px;
+    margin-left: 120px;
+  }
+  footer h1 {
+    font-size: 2.75em;
+    color: #088ca5;
+  }
+  footer p {
+    margin: 48px auto;
+    color: #515151;
+    font-size: 1.6875em;
+    line-height: 44px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .col-width {
+    float: left;
+    width: 341.3333333333333px;
+    height: 277px;
+    max-height: 277px;
+  }
+  .menu-title,
+  .button-main-menu {
+    display: none;
+  }
+  .ul-menu {
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 73px;
+    margin-top: 45px;
+  }
+  .ul-menu li {
+    float: left;
+    margin-right: 28px;
+  }
+  .ul-menu li:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 3.5625em;
+    line-height: 1.1em;
+  }
+  .menu {
+    height: 111px;
+    width: 100%;
+    background-color: #373c3f;
+    text-align: center;
+  }
+  .menu-title {
+    margin-top: 5.135136%;
+    margin-left: 10%;
+    float: left;
+  }
+  .header {
+    height: 525px;
+    background: linear-gradient(to top left, #078aa4, #16b1c4);
+  }
+  .header-text {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 168px;
+    width: 666px;
+  }
+  .header-text-link {
+    opacity: 0.5;
+    margin-top: 20px;
+    float: left;
+  }
+  .header-sign-link {
+    margin-top: 30px;
+    float: right;
+    width: 24px;
+    height: 36px;
+  }
+  .block-info img,
+  .block-info {
+    width: 100%;
+    background-color: #5b0fa1;
+  }
+  .split {
+    height: 225px;
+    background-color: #27212c;
+  }
+  .split-text {
+    opacity: 0.5;
+    margin-top: 90px;
+    margin-left: 78px;
+    float: left;
+  }
+  .button-split-sign {
+    width: 30px;
+    height: 48px;
+    display: inline-block;
+    margin: 39.33% 42.857%;
+  }
+  .split-text,
+  .header-text-link,
+  .menu-title {
+    font-size: 2em;
+  }
+  .button-info-sign {
+    height: 56px !important;
+    width: 36px !important;
+    margin: 38.945848% 47.1875%;
+  }
+  .block-footer {
+    display: inline-block;
+    margin-top: 102px;
+    width: 759px;
+    margin-left: 120px;
+  }
+  footer h1 {
+    font-size: 2.75em;
+    color: #088ca5;
+  }
+  footer p {
+    margin: 48px auto;
+    color: #515151;
+    font-size: 1.6875em;
+    line-height: 44px;
+  }
+}
